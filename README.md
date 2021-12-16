@@ -1,2 +1,1 @@
-# todo-calendar
-Todo Calendar
+# Todo Calendar
