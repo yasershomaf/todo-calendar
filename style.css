@@ -1,0 +1,68 @@
+* {
+	box-sizing: border-box;
+	font-family: sans-serif;
+}
+
+button {
+	cursor: pointer;
+}
+
+html, body {
+	height: 100%;
+	margin: 0;
+	width: 100%;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	padding: 10px;
+}
+
+.widget {
+	border: 2px solid black;
+	border-radius: 10px;
+}
+
+header {
+	font-size: 24px;
+	text-align: center;
+	margin-bottom: 10px;
+	line-height: 40px;
+}
+
+main {
+	display: flex;
+	flex: 1 1 0px;
+}
+
+.todos-container {
+	margin-right: 10px;
+	padding: 10px;
+	width: 300px;
+	display: flex;
+	flex-direction: column;
+}
+
+#new-Todo {
+	display: block;
+	resize: none;
+	font-size: 14px;
+	line-height: 16px;
+}
+
+#add-todo {
+	margin: 5px 0 10px;
+	align-self: flex-end;
+}
+
+#todo-list {
+	flex: 1 1 0px;
+	margin: 0;
+	padding: 0;
+	overflow: auto;
+}
+
+.calendar-conatiner {
+	flex: 1 1 0px
+}

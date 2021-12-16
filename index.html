@@ -9,6 +9,31 @@
 	<script src="index.js"></script>
 </head>
 <body>
-	<h1>Test</h1>
+	<header class="widget">Todo Calendar</header>
+
+	<main>
+		<aside class="todos-container widget">
+			<textarea id="new-Todo" rows="4"></textarea>
+
+			<button id="add-todo">Add</button>
+
+			<ul id="todo-list"></ul>
+		</aside>
+
+		<table class="calendar-conatiner widget">
+			<thead>
+				<tr>
+					<th class="day-name">Mon</th>
+					<th class="day-name">Tue</th>
+					<th class="day-name">Wed</th>
+					<th class="day-name">Thu</th>
+					<th class="day-name">Fri</th>
+					<th class="day-name">Sat</th>
+					<th class="day-name">Sun</th>
+				</tr>
+			</thead>
+			<tbody></tbody>
+		</table>
+	</main>
 </body>
 </html>
