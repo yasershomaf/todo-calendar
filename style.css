@@ -66,3 +66,21 @@ main {
 .calendar-conatiner {
 	flex: 1 1 0px
 }
+
+.day-names {
+	display: flex;
+}
+
+.day-name {
+	flex: 1 1 auto;
+	text-align: center;
+}
+
+#days {
+	display: flex;
+	flex-wrap: wrap;
+}
+
+.day {
+	width: 14.2%;
+}
