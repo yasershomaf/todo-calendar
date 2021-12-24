@@ -44,14 +44,14 @@ main {
 	flex-direction: column;
 }
 
-#new-Todo {
+#todo-input {
 	display: block;
 	resize: none;
 	font-size: 14px;
 	line-height: 16px;
 }
 
-#add-todo {
+#add-button {
 	margin: 5px 0 10px;
 	align-self: flex-end;
 }
@@ -76,11 +76,13 @@ main {
 	text-align: center;
 }
 
-#days {
+#days-container {
 	display: flex;
 	flex-wrap: wrap;
 }
 
-.day {
+.day-container {
+	text-align: center;
+	line-height: 30px;
 	width: 14.2%;
 }
